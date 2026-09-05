@@ -22,7 +22,7 @@ function __nvmsupport_auto_activate --on-variable PWD
             end
             return
         end
-        if test -f "$activation_root/.git"
+        if test -e "$activation_root/.git"
             break # don't keep searching beyond a .git repository
         end
         # this strips the last path component from the path.

@@ -33,4 +33,9 @@ function __nvmsupport_auto_activate --on-variable PWD
     end
 end
 
-__nvmsupport_auto_activate
+# Wait until the first prompt to trigger
+# (as auto_nvm.fish will run before nvm.fish)
+function __nvmsupport_auto_activate_startup --on-event fish_prompt
+    functions --erase __nvmsupport_auto_activate_startup
+    __nvmsupport_auto_activate
+end

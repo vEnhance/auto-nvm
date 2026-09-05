@@ -8,7 +8,7 @@ See [jorgebucaran/nvm.fish#132][issue] for discussion. This is not a solution to
 [link]: https://github.com/justinmayer/virtualfish/blob/main/virtualfish/auto_activation.fish
 [issue]: https://github.com/jorgebucaran/nvm.fish/issues/132
 
-### With [Fisher](https://github.com/jorgebucaran/fisher/)
+## With [Fisher](https://github.com/jorgebucaran/fisher/)
 
 ```console
 fisher install vEnhance/auto-nvm
